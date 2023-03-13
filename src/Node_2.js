@@ -8,6 +8,7 @@ const {f01918123_stat, setnode2Handler}=useContext(NodeContext)
 return f01918123_stat? (
 <>
     <div className="container">
+    <div className="column">{props.nodeId}</div>  
       <div className="column">{props.minerId}</div>
       <div className="column">{props.winposttime}</div>
       <div className="column">{props.date}</div>
@@ -17,6 +18,7 @@ return f01918123_stat? (
     ):(
         <>
     <div className="container">
+      <div className="column">{props.nodeId}</div>  
       <div className="column">{props.minerId}</div>
       <div className="column">{props.winposttime}</div>
       <div className="column">{props.date}</div>

@@ -66,10 +66,11 @@ function App() {
    <div className='app'>
     
     <Header_1/>
-    <Node_info minerId="MINER ID" winposttime="WINPOST TIME" date="DATE"  winpoststatus= "WIN POST STATUS" />
-    <Node_info_1 minerId="f01624021" winposttime="9.00AM ~ 11.00AM" date={date.toDateString()} />
-    <Node_info_2 minerId="f01918123" winposttime="16.00PM ~ 18.00PM" date={date.toDateString()} />
-    <Node_info_3 minerId="f01982557" winposttime="10:45PM ~ 12:00PM " date={date.toDateString()} />
+    <Node_info node_Id="Node Number" minerId="MINER ID" winposttime="WINPOST TIME" date="DATE"  winpoststatus= "WIN POST STATUS" />
+    <Node_info_1 nodeId="Node 1" minerId="f01624021" winposttime="9.00AM ~ 11.00AM" date={date.toDateString()} />
+    <Node_info_2 nodeId="Node 2" minerId="f01918123" winposttime="16.00PM ~ 18.00PM" date={date.toDateString()} />
+    <Node_info_3 nodeId="Node 3" minerId="f01982557" winposttime="10:45PM ~ 12:00PM " date={date.toDateString()} />
+    <Node_info_3 nodeId="Node 5" minerId="f01982557" winposttime="10:45PM ~ 12:00PM " date={date.toDateString()} />
     </div>   
   );
 }
